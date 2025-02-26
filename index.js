@@ -55,7 +55,7 @@ const store = makeInMemoryStore({
 let phoneNumber = "911234567890"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
-global.botname = "KNIGHT BOT"
+global.botname = "Max's-Wife-Md"
 global.themeemoji = "•"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -117,7 +117,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterName: "Max's-Wife-MD",
                                 serverMessageId: -1
                             }
                         }
